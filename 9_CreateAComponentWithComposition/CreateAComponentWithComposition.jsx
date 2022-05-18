@@ -10,7 +10,7 @@ const Createacomponentwithcomposition = () => {
   );
 };
 
-const ChildComponent = () => {
+const Child = () => {
   return (
     <div>
       <p>I am the child</p>
@@ -27,7 +27,7 @@ class ParentComponent extends React.Component {
       <div>
         <h1>I am the parent</h1>
         {/* Change code below this line */}
-        <ChildComponent />
+        <Child />
 
         {/* Change code above this line */}
       </div>
